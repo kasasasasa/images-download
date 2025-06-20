@@ -99,7 +99,7 @@ class BingImageDownloaderApp:
             bg="#f0f0f0"
         ).pack(side=tk.LEFT, padx=(0, 10))
 
-        self.dir_var = tk.StringVar(value="images")
+        self.dir_var = tk.StringVar(value="D:\py\pachong\images")
         self.dir_entry = tk.Entry(
             dir_frame,
             textvariable=self.dir_var,
